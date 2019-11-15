@@ -7,7 +7,7 @@ function getIt(){
 
 function frameIt() {
   $('img').classList.add('tasty')
-  
+  $('img')style.border-color
 }
 
 function pressIt(){
