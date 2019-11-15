@@ -10,8 +10,17 @@ function frameIt() {
 }
 
 function pressIt(){
-  $('#typing')
+  $('#typing').on('keydown',function(e){
+    if (e.key === 'g'){
+      alert('You motherfucker')
+    }
+  })
 }
+function submitIt(){
+  
+}
+
+
 $(document).ready(function(){
 
 
