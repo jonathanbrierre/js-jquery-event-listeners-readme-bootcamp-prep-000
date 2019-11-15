@@ -7,10 +7,10 @@ function getIt(){
 
 function frameIt() {
   $('img').on('load',function(){
-    
+     $('img').classList.append('tasty');
+     $('img').style.borderColor = red
   })
-  $('img').classList.append('tasty');
-  $('img').style.borderColor = red
+ 
 }
 
 function pressIt(){
