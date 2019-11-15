@@ -6,7 +6,7 @@ function getIt(){
 }
 
 function frameIt() {
-  $('img').classList.add('tasty');
+  $('img').classList.append('tasty');
   $('img').style.borderColor = red
 }
 
