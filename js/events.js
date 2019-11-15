@@ -25,7 +25,10 @@ function submitIt(){
 
 
 $(document).ready(function(){
-
+getIt()
+pressIt()
+submitIt()
+frameIt()
 
 
 });
