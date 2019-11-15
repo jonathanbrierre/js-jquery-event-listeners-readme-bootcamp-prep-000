@@ -15,7 +15,7 @@ function frameIt() {
 
 function pressIt(){
   $('#typing').on('keydown',function(e){
-    if (e.key === 'g'){
+    if (e.key === 'G'){
       alert('You motherfucker')
     }
   })
