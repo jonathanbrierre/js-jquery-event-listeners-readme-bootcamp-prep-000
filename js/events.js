@@ -8,7 +8,7 @@ function getIt(){
 function frameIt() {
   $('img').on('load',function(){
      $('img').classList.add('tasty');
-     $('img').css("background-color") = red
+     $('img').css("background-color") = r
   })
  
 }
